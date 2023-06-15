@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.left-side {
+    background-image: url("/public/bg-main-desktop.png");
+}
+
+.front-card {
+    background-image: url("/public/bg-card-front.png");
+}
+
+.back-card {
+    background-image: url("/public/bg-card-back.png");
+}
