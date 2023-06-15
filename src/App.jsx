@@ -62,7 +62,7 @@ function App() {
 
         <div className='relative w-full h-full max-w-lg mx-auto'>
           <div className='flex drop-shadow-xl flex-col front-card z-30 bg-cover p-4 absolute h-44 rounded-lg w-[22rem] translate-y-12 left-7 bottom-0 lg:h-52 lg:w-96 lg:top-24 lg:translate-x-16 lg:left-1/3'>
-            <img src='/public/card-logo.svg' className='block object-fill h-8 w-14' />
+            <div className='block object-fill h-8 w-14 circle' />
 
             <div className='flex flex-col gap-3 mt-auto'>
               <h1 className='text-3xl tracking-wider lg:tracking-widest text-slate-200'>{card.number ? card.number : "0000 0000 0000 0000"}</h1>

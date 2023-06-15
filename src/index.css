@@ -13,3 +13,11 @@
 .back-card {
     background-image: url("/public/bg-card-back.png");
 }
+
+.circle {
+    width: 3.6rem;
+    height: 2rem;
+    display: block;
+    background-size: cover;
+    background-image: url("/public/card-logo.svg");
+}
